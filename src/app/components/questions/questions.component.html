@@ -1,20 +1,26 @@
-<h2 class="title"><u>Welcome to Trivia</u></h2>
-<div class="wrapper">
-  <div class="question" *ngIf="randomQuestion">
-    <h2>{{ randomQuestion.question }}</h2>
-    <ul>
+<h2 class="text-center text-2xl font-bold underline mb-6">Welcome to Trivia</h2>
+<div class="flex flex-col items-center justify-center min-h-screen px-4">
+  <div
+    class="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg"
+    *ngIf="randomQuestion"
+  >
+    <div class="text-center mb-6">
+      <h2 class="text-xl font-semibold">{{ randomQuestion.question }}</h2>
+    </div>
+    <ul class="space-y-4">
       <li
         *ngFor="let option of randomQuestion.options"
         [ngClass]="{
-          'bg-blue-200':
+          'bg-blue-300 border-blue-500 text-white':
             option === randomQuestion.correctAnswer &&
             showResult &&
             selectedOption === option,
-          'bg-red-200':
+          'bg-red-300 border-red-500 text-white':
             option === selectedOption &&
             showResult &&
             selectedOption !== randomQuestion.correctAnswer
         }"
+        class="border-2 rounded-lg p-3 cursor-pointer hover:bg-gray-200"
       >
         <input
           type="radio"
@@ -25,22 +31,35 @@
         <label>{{ option }}</label>
       </li>
     </ul>
-    <div>
-      <button class="btn" (click)="checkAnswer()">Submit</button>
+    <div class="flex justify-between mt-6">
       <button
-        class="next-btn"
+        class="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded"
+        (click)="checkAnswer()"
+      >
+        Submit
+      </button>
+      <button
+        class="bg-green-500 text-white hover:bg-green-600 px-4 py-2 rounded"
         *ngIf="showResult && selectedOption == randomQuestion.correctAnswer"
         (click)="nextQuestion()"
       >
         Next
       </button>
     </div>
-    <p *ngIf="showResult && selectedOption !== randomQuestion.correctAnswer">
-      Your answer is <span class="answer">Incorrect, try again.</span>.
-    </p>
-    <p *ngIf="showResult && selectedOption == randomQuestion.correctAnswer">
-      <span class="answer">{{ randomQuestion.correctAnswer }}</span> is the
-      correct answer. Click Next to proceede.
+    <p class="text-center mt-4">
+      <span
+        *ngIf="showResult && selectedOption !== randomQuestion.correctAnswer"
+        class="text-red-500"
+      >
+        Your answer is Incorrect, try again.
+      </span>
+      <span
+        *ngIf="showResult && selectedOption == randomQuestion.correctAnswer"
+        class="text-green-500"
+      >
+        <span class="font-bold">{{ randomQuestion.correctAnswer }}</span> is the
+        correct answer. Click Next to proceed.
+      </span>
     </p>
   </div>
 </div>
