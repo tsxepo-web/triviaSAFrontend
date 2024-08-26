@@ -1,0 +1,46 @@
+<h2 class="title"><u>Welcome to Trivia</u></h2>
+<div class="wrapper">
+  <div class="question" *ngIf="randomQuestion">
+    <h2>{{ randomQuestion.question }}</h2>
+    <ul>
+      <li
+        *ngFor="let option of randomQuestion.options"
+        [ngClass]="{
+          'bg-blue-200':
+            option === randomQuestion.correctAnswer &&
+            showResult &&
+            selectedOption === option,
+          'bg-red-200':
+            option === selectedOption &&
+            showResult &&
+            selectedOption !== randomQuestion.correctAnswer
+        }"
+      >
+        <input
+          type="radio"
+          name="options"
+          [value]="option"
+          (change)="onOptionSelected(option)"
+        />
+        <label>{{ option }}</label>
+      </li>
+    </ul>
+    <div>
+      <button class="btn" (click)="checkAnswer()">Submit</button>
+      <button
+        class="next-btn"
+        *ngIf="showResult && selectedOption == randomQuestion.correctAnswer"
+        (click)="nextQuestion()"
+      >
+        Next
+      </button>
+    </div>
+    <p *ngIf="showResult && selectedOption !== randomQuestion.correctAnswer">
+      Your answer is <span class="answer">Incorrect, try again.</span>.
+    </p>
+    <p *ngIf="showResult && selectedOption == randomQuestion.correctAnswer">
+      <span class="answer">{{ randomQuestion.correctAnswer }}</span> is the
+      correct answer. Click Next to proceede.
+    </p>
+  </div>
+</div>

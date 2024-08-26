@@ -1,0 +1,147 @@
+[
+  {
+    "question": "Who is known as the 'Madiba of South African cricket'?",
+    "options": [
+      "Hansie Cronje",
+      "Hashim Amla",
+      "Graeme Smith",
+      "Makhaya Ntini"
+    ],
+    "correctAnswer": "Makhaya Ntini",
+    "distractors": ["Hansie Cronje", "Hashim Amla", "Graeme Smith"]
+  },
+  {
+    "question": "Which South African city hosted the 2010 FIFA World Cup final?",
+    "options": ["Johannesburg", "Cape Town", "Durban", "Pretoria"],
+    "correctAnswer": "Johannesburg",
+    "distractors": ["Cape Town", "Durban", "Pretoria"]
+  },
+  {
+    "question": "Who was the first South African to win an Olympic gold medal in swimming?",
+    "options": [
+      "Roland Schoeman",
+      "Penny Heyns",
+      "Chad le Clos",
+      "Ryk Neethling"
+    ],
+    "correctAnswer": "Penny Heyns",
+    "distractors": ["Roland Schoeman", "Chad le Clos", "Ryk Neethling"]
+  },
+  {
+    "question": "In which year did the South African rugby team win their first Rugby World Cup?",
+    "options": ["1991", "1995", "1999", "2003"],
+    "correctAnswer": "1995",
+    "distractors": ["1991", "1999", "2003"]
+  },
+  {
+    "question": "Who is known as the most successful captain in South African cricket history?",
+    "options": [
+      "Kepler Wessels",
+      "Hansie Cronje",
+      "Shaun Pollock",
+      "Graeme Smith"
+    ],
+    "correctAnswer": "Graeme Smith",
+    "distractors": ["Kepler Wessels", "Hansie Cronje", "Shaun Pollock"]
+  },
+  {
+    "question": "Which South African sprinter won a gold medal in the 400 meters at the 2016 Olympics?",
+    "options": [
+      "Akani Simbine",
+      "Wayde van Niekerk",
+      "Henricho Bruintjies",
+      "Anaso Jobodwana"
+    ],
+    "correctAnswer": "Wayde van Niekerk",
+    "distractors": ["Akani Simbine", "Henricho Bruintjies", "Anaso Jobodwana"]
+  },
+  {
+    "question": "Which South African athlete is known for holding the world record in the 800 meters?",
+    "options": [
+      "Mbulaeni Mulaudzi",
+      "Caster Semenya",
+      "Zola Budd",
+      "Hezekiél Sepeng"
+    ],
+    "correctAnswer": "Caster Semenya",
+    "distractors": ["Mbulaeni Mulaudzi", "Zola Budd", "Hezekiél Sepeng"]
+  },
+  {
+    "question": "Which South African soccer team is nicknamed 'Amakhosi'?",
+    "options": [
+      "Orlando Pirates",
+      "Kaizer Chiefs",
+      "Mamelodi Sundowns",
+      "Bidvest Wits"
+    ],
+    "correctAnswer": "Kaizer Chiefs",
+    "distractors": ["Orlando Pirates", "Mamelodi Sundowns", "Bidvest Wits"]
+  },
+  {
+    "question": "Who was South Africa's first black rugby captain?",
+    "options": [
+      "Siya Kolisi",
+      "Bryan Habana",
+      "Tendai Mtawarira",
+      "Chester Williams"
+    ],
+    "correctAnswer": "Siya Kolisi",
+    "distractors": ["Bryan Habana", "Tendai Mtawarira", "Chester Williams"]
+  },
+  {
+    "question": "Which South African golfer won the Masters Tournament in 2011?",
+    "options": [
+      "Gary Player",
+      "Ernie Els",
+      "Charl Schwartzel",
+      "Retief Goosen"
+    ],
+    "correctAnswer": "Charl Schwartzel",
+    "distractors": ["Gary Player", "Ernie Els", "Retief Goosen"]
+  },
+  {
+    "question": "Which South African singer is known for the hit song 'Pata Pata'?",
+    "options": [
+      "Miriam Makeba",
+      "Brenda Fassie",
+      "Yvonne Chaka Chaka",
+      "Thandiswa Mazwai"
+    ],
+    "correctAnswer": "Miriam Makeba",
+    "distractors": ["Brenda Fassie", "Yvonne Chaka Chaka", "Thandiswa Mazwai"]
+  },
+  {
+    "question": "Who was the lead singer of the South African band 'The Parlotones'?",
+    "options": [
+      "Kahn Morbee",
+      "Johnny Clegg",
+      "Arno Carstens",
+      "Steve Hofmeyr"
+    ],
+    "correctAnswer": "Kahn Morbee",
+    "distractors": ["Johnny Clegg", "Arno Carstens", "Steve Hofmeyr"]
+  },
+  {
+    "question": "Which South African artist is known for blending traditional Zulu music with modern pop sounds?",
+    "options": [
+      "Lucky Dube",
+      "Hugh Masekela",
+      "Johnny Clegg",
+      "Ladysmith Black Mambazo"
+    ],
+    "correctAnswer": "Johnny Clegg",
+    "distractors": ["Lucky Dube", "Hugh Masekela", "Ladysmith Black Mambazo"]
+  },
+  {
+    "question": "Which South African rapper is known for the song 'Roll Up'?",
+    "options": ["Nasty C", "AKA", "Cassper Nyovest", "Kwesta"],
+    "correctAnswer": "Nasty C",
+    "distractors": ["AKA", "Cassper Nyovest", "Kwesta"]
+  },
+  {
+    "question": "Which South African band is famous for the hit song 'Doo Be Doo'?",
+    "options": ["Freshlyground", "Goldfish", "Mafikizolo", "Beatenberg"],
+    "correctAnswer": "Freshlyground",
+    "distractors": ["Goldfish", "Mafikizolo", "Beatenberg"]
+  }
+]
